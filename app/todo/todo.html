@@ -1,0 +1,19 @@
+<div ng-controller="TodoCtrl">
+    <h1 class="text-center">Купить</h1>
+    <form class="offset-md-2 col-md-8 d-flex justify-content-center">
+        <div class="input-group mb-3">
+        <input  type="text" class="form-control" aria-describedby="basic-addon2" type="text" ng-model="tempInput"/>
+            <div class="input-group-append">
+                <button ng-click="addItem()" class="btn btn-primary">Добавить</button>
+            </div>
+        </div>
+    </form>
+    <table class="offset-md-2 col-md-8 table table-hovercd task-table">
+        <tr ng-repeat="task in tasksArray">
+            <td>{{task}}</td>
+            <td>
+                <button ng-click="deleteItem(task)" class="btn btn-primary">Удалить</button>
+            </td>
+        </tr>
+    </table>
+</div>
