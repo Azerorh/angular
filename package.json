@@ -20,7 +20,7 @@
     "@angular/compiler-cli": "^8.2.4",
     "@types/braces": "^3.0.0",
     "angular-mocks": "^1.7.5",
-    "http-server": "^0.11.1",
+    "http-server": "^0.11.2",
     "jasmine-core": "^3.3.0",
     "karma": "^4.3.0",
     "karma-chrome-launcher": "^2.2.0",
